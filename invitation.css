@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('terra.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 80px;
+    margin-left: 600px;
+}
+
+nav ul li {
+    list-style: none;
+    align-content: space-between;
+    margin: 40px;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main {
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    font-size: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 50%; /* Adjust top positioning */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center-align the text */
+    max-width: 50%;
+    font-size: 30px;
+}
+
+
+.description-content {
+    margin-top: 200px;;
+    margin-bottom: 50px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.address{
+    color: white;
+    margin-bottom: 30px;
+    margin-right: 400px;
+}
+
+.address ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 350px;
+}
+
+.rsvp {
+    background-color: bisque;
+    border: 10px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    min-height: 30px;
+    min-width: 50px;
+}
+
+.rsvp:hover {
+    background-color: rgb(190, 168, 142);
+    transition: 0.7s;
+    border-radius: 10px;
+}
+
+.rsvp:focus {
+    outline-color: transparent;
+    outline-style: solid;
+    transition: 0.7s;
+}
+
+.rsvp:active {
+    background-color: rgb(144, 129, 111);
+}
+
+.ganeshaimg{
+    position: absolute;
+    top: 120px; /* Adjust top coordinate */
+    left: 130px; /* Adjust left coordinate */
+    right: 50px;
+    width: 80px;
+    height: auto;
+}
+
+.ramimg{
+    margin-left: 80%;
+    margin-top: 120px;
+    margin-right: 400px;
+}
